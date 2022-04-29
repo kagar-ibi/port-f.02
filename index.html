@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="tenplate.css">
+  <link rel="stylesheet" href="sanitize.css">
+  <title>hato design</title>
+  <script src="https://kit.fontawesome.com/bed3d8781d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mainvisual">
+    <img src="imge/mainvisual.png">
+  </div>
+
+
+  <div class="openbtn"><span></span><span></span><span></span></div>
+  <nav id="g-nav">
+    <div id="g-nav-list">
+      <ul>
+        <li><a href="#work">work</a></li>
+        <li><a href="#prof">prof</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="work" id="work">
+      <div class="title">
+        <h2>work</h2>
+      </div>
+      <div class="work-wrapper">
+          <div class="work-contents">
+              <p>design</p>
+            <a href="#" class="design"><img src="imge/design05.PNG" alt="制作したwebサイト"></a>
+            <div class="popup">
+              <div class="content">
+                <img src="imge/design04.png">
+                <p>ポートフォリオサイト<br><br><br>
+                ◆かかった時間:２日<br><br>
+                ◆気をつけたこと:<br>ナビゲーションメニューの表示、workコンテンツでのjQueryを使用したポップアップの表示などを初めて実装したwebページだったこともあり、見やすくなるよう心がけました。<br></p>
+                <button id="close" class="close-button">×</button>
+              </div>
+            </div>
+          </div>
+        <div class="work-contents">
+          <p>movie</p>
+          <img src="imge/youtube01.png" alt="制作した動画">
+        </div>
+        <div class="work-contents">
+          <p>banner</p>
+          <img src="imge/design02.png" alt="制作したバナー">
+        </div>
+      </div>
+    </div>
+    <div class="more">
+      <div class="view-more">
+        <p><a href="#"> 他の作品を見る ▶▶▶</a></p>
+      </div>
+  </div>
+
+    <section class="profile" id="prof">
+      <div class="title">
+        <h2>profile</h2>
+      </div>
+      <div class="prof-contents">
+          <img src="imge/prof.jpg" class="profimg">
+        <div class="prof-text">
+          <p class="name">hato</p>
+          <div class="prof-textleft">
+          <p>2012年に専門学校を卒業し、正社員として就職するも、社長がいなくなり、止むなく退職。それから10年ほどサービス業を中心に職を転々としながら過ごす。2022年1月にwebデザインと出会い、勉強を始める。使いやすいデザインにできるよう、寄り添いながら進めていきたいと考えています。</p>
+          </div><br>
+          <h3>skill</h3>
+          <nav class="prof-textright">
+            <ol>
+              <li>HTML&CSS:★★☆☆☆</li>
+              <li>Photoshop:★☆☆☆☆</li>
+              <li>sai: ★★★★☆</li>
+              <li>clipstadio:★★☆☆☆</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-form">
+        <div class="title">
+          <h2>contact</h2>
+        </div>
+        <div class="contact-area">
+          <div class="name-form">
+            <label for="myname">お名前  <span class="required">*必須</span></label>
+            <input id="myname" type="name" name="myname">
+          </div>
+          <div class="mail-form">
+            <label for="mymail">メールアドレス  <span class="required">*必須</span></label>
+            <input id="mymail" type="mymail" name="mymail">
+          </div>
+          <div class="text-form">
+            <label for="mymail">内容  <span class="required">*必須</span></label>
+            <textarea id="textarea" type="textarea" name="textarea">
+            </textarea>
+          </div>
+          <div class="submit-button">
+            <div class="submit">
+              <button type="submit" class="submit-dear">送 信</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer"><small>&copy; 2022 hato design</small>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
